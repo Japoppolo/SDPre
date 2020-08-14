@@ -1,10 +1,10 @@
 public class Objective2Lab3 {
   public static void main(String[] args) {
-    double num1, num2, num3, average;
+    int num1, num2, num3, sum;
     num1 = 77;
     num2 = 49;
     num3 = 18;
-    average = (num1 + num2 + num3)/3;
-    System.out.println(average);
+    sum = num1 + num2 + num3;
+    System.out.println(sum);
   }
 }
